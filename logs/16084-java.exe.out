@@ -1,0 +1,60 @@
+Listening for transport dt_socket at address: 53150
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 983milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 983"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 53178"}
+{"logLevel":"info","message":"Listening on port:53178"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Tests.HomeTest.checkHomePageOpenAndLogin' and 'Tests.HomeTest.checkHomePageOpenAndLogin'"}
+{"logLevel":"debug","message":"Found Ana sayfanın açıldığı kontrol edilir. Siteye login olunur. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'org.example.StepImplementation.ensureInstallationInstructionsAreAvailable'"}
+{"logLevel":"debug","message":"Found Ensure installation instructions are available in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.BasketTest.checkBasketPrice' and 'Tests.BasketTest.checkBasketPrice'"}
+{"logLevel":"debug","message":"Found Ürün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.gotoGetStartedPage' and 'org.example.StepImplementation.gotoGetStartedPage'"}
+{"logLevel":"debug","message":"Found Go to Gauge Get Started Page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.HomeTest.userVisitSite' and 'Tests.HomeTest.userVisitSite'"}
+{"logLevel":"debug","message":"Found Kullanıcı {} sitesini ziyaret eder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductListTest.addToBasket' and 'Tests.ProductListTest.addToBasket'"}
+{"logLevel":"debug","message":"Found Seçilen ürün sepete eklenir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.implementation1' and 'org.example.StepImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found Open the Gauge homepage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductListTest.clickSecondPagination' and 'Tests.ProductListTest.clickSecondPagination'"}
+{"logLevel":"debug","message":"Found Arama sonuclarından 2. sayfa açılır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductListTest.selectRandomProduct' and 'Tests.ProductListTest.selectRandomProduct'"}
+{"logLevel":"debug","message":"Found Listelenen ürünler arasından rastgele ürün seçilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductListTest.setSearchBar' and 'Tests.ProductListTest.setSearchBar'"}
+{"logLevel":"debug","message":"Found Kullanıcı {} anahtar kelimesini arama kısmına yazar. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tOpen the Gauge homepage : public void implementation1()"}
+{"logLevel":"debug","message":"\tGo to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKullanıcı {} sitesini ziyaret eder : public void userVisitSite(String value)"}
+{"logLevel":"debug","message":"\tÜrün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır. : public void checkBasketPrice()"}
+{"logLevel":"debug","message":"\tListelenen ürünler arasından rastgele ürün seçilir. : public void selectRandomProduct()"}
+{"logLevel":"debug","message":"\tEnsure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSeçilen ürün sepete eklenir. : public void addToBasket()"}
+{"logLevel":"debug","message":"\tKullanıcı {} anahtar kelimesini arama kısmına yazar. : public void setSearchBar(String key)"}
+{"logLevel":"debug","message":"\tAna sayfanın açıldığı kontrol edilir. Siteye login olunur. : public void checkHomePageOpenAndLogin() throws InterruptedException"}
+{"logLevel":"debug","message":"\tArama sonuclarından 2. sayfa açılır. : public void clickSecondPagination()"}
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 3952
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Eyl 23, 2021 12:39:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Kullanıcı {} sitesini ziyaret eder' using 'class Tests.HomeTest.userVisitSite"}
+{"logLevel":"debug","message":"Executing 'Kullanıcı {} anahtar kelimesini arama kısmına yazar.' using 'class Tests.ProductListTest.setSearchBar"}
+{"logLevel":"debug","message":"Executing 'Arama sonuclarından 2. sayfa açılır.' using 'class Tests.ProductListTest.clickSecondPagination"}
+{"logLevel":"debug","message":"Executing 'Listelenen ürünler arasından rastgele ürün seçilir.' using 'class Tests.ProductListTest.selectRandomProduct"}
+{"logLevel":"debug","message":"Executing 'Seçilen ürün sepete eklenir.' using 'class Tests.ProductListTest.addToBasket"}
+Listening for transport dt_socket at address: 53150
+{"logLevel":"debug","message":"Executing 'Ürün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır.' using 'class Tests.BasketTest.checkBasketPrice"}
