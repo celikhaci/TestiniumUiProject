@@ -34,7 +34,7 @@ public class HomeModel extends BaseModel {
             clickElement(loginButton);
 
             sendKeys(userName, "hacicelik0710@gmail.com");
-            sendKeys(password, "07102016hh");
+            sendKeys(password, "**********");
             Thread.sleep(5000);
             clickElement(loginPageLoginButton);
 
